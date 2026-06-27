@@ -23,8 +23,16 @@ class Meia(Ingresso):
 class VIP(Ingresso):
     def preco(self):
         return 35.0
-
-
+    
+class Cortesia(Ingresso):
+                                #  """Ingresso cortesia: totalmente grátis (R$ 0.00)."""
+    def preco(self) -> float:
+        return 0.0
+    
+class Cortesia(Ingresso):
+    """Ingresso cortesia: totalmente grátis (R$ 0.00)."""
+    def preco(self) -> float:
+        return 0.0
 # ---------------------------------------------------------------
 # TODO (Parte B): adicione aqui a classe Cortesia
 #
